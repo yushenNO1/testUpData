@@ -17,16 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "testUpData"
   s.version      = "0.0.1"
-  s.summary      = "A short description of testUpData."
+  s.summary      = "sdasdasd"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "描述"
+  s.description  = "adsasdasdasdasdasd"
 
-  s.homepage     = "http://EXAMPLE/testUpData"
+  s.homepage     = "http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "testUpData", "testUpData/*.{h,m}"
+  s.source_files  = "testUpData/*.{h,m}"
  
   # s.public_header_files = "Classes/**/*.h"
 
@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
