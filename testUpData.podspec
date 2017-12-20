@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testUpData"
-  s.version      = "0.0.1"
+  s.version      = "v0.0.1"
   s.summary      = "sdasdasd"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "adsasdasdasdasdasd"
+  s.description  = <<-DESC
+                      this project provide all kinds of categories for iOS developer 
+                   DESC
 
   s.homepage     = "http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes","testUpData/*.{h,m}"
- 
+  s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
 
