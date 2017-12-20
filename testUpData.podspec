@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testUpData"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "sdasdasd"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                       this project provide all kinds of categories for iOS developer 
                    DESC
 
-  s.homepage     = "http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg"
+  s.homepage     = "https://github.com/yushenNO1/testUpData"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "testUpData/*.{h,m}"
+  s.source_files  = "testUpData.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
